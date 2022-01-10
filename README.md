@@ -1,2 +1,3 @@
 # atalaveracuya.github.io
-Estadísticas interactivas
+Estadísticas interactivas con R
+Link: https://atalaveracuya.github.io/
