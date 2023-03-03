@@ -1,5 +1,176 @@
+
+<img style="float: left;" src="https://raw.githubusercontent.com/atalaveracuya/curriculum/main/cvfoto_143x160.jpg">
+
 ---
-title: "Curriculum Vitae"
+title: "ANDRÉS TALAVERA CUYA"
 ---
 
-Aquí irá mi hoja de vida. 
+## Ciencias Económicas
+
+[Linkedin](https://www.linkedin.com/in/atalaveracuya/) \
+[GitHub](https://github.com/atalaveracuya/)\
+[E-mail](mailto:atalaveracuya@gmail.com)\
+[Youtube](https://www.youtube.com/@SABCPERU)\
+
+Lima,Perú
+
+---
+---
+
+### Acerca de mí 
+
+---
+
+Bachiller en Ciencias Económicas de la Universidad Nacional Federico Villarreal, perteneciente al décimo superior, con experiencia en la construcción y monitoreo de indicadores socioeconómicos. Manejo avanzado de paquetes informáticos para el análisis estadístico y econométrico. Con conocimientos en la redacción de informes y estudios. Predisposición de desarrollo profesional en áreas de investigación y análisis económico.
+
+
+#### Habilidad digital 
+- R/Stata/Python
+- Power Bi & Tableau
+- Spss & Kobocollect  
+- Microsoft Office
+
+#### Idiomas
+- Español
+- Italiano (básico)
+    
+### Experiencia laboral ###
+
+---
+
+
+**Analista de base de datos**\
+***INEI - Dirección Nacional de Censos y Encuestas***\
+***Lima, Perú | 17/9/2019 – 2/2/2020 ***
+    
+- Elaboración de reglas lógicas y flujos de consistencia.
+- Elaboración de sintaxis.
+- Elaboración de reportes de calidad y monitoreo.
+- Elaboración de sintaxis de indicadores.
+    
+---
+
+
+**Operador de empresa**\
+***INEI - Dirección Nacional de Censos y Encuestas***\
+***Lima, Perú | 22/3/2021 – 19/6/2021***\
+
+- Realizar las llamadas a las empresas que pertenecen a la muestra para coordinar y orientar al contador, gerente o responsable de la empresa respecto al diligenciamiento del formulario electrónico de la Encuesta Económica Anual absolviendo las consultas en relación a su diligenciamiento y a los procedimientos para la remisión de la información a través del portal de la página Web del INEI.
+- Ingresar diariamente la información sobre la ocurrencia de sus coordinaciones y llamadas a las empresas seleccionadas en el Sistema de información y hacer la entrega diaria de la carga de trabajo.
+- Efectuar el seguimiento a las empresas omisas a través de la comunicación de las notificaciones a fin de persuadir al informante para que cumpla con el diligenciamiento del formulario electrónico de la Encuesta Económica Anual.
+
+---
+
+
+**Practicante Profesional**\
+***Fondo Mivivienda S.A. - Oficina de Planeamiento, Prospectiva y Desarrollo Organizacional (OPPD)***\
+***Lima, Perú | 4/5/2015 - 3/3/2016***\
+
+- Actualización de estadísticas del Fondo Mivivienda.
+- Apoyo en la elaboración de informes de gestión para la Superintendencia de Mercado de Valores.
+- Apoyo en la elaboración de presentaciones para conferencias de prensa y reportes para la Alta Gerencia, MVCS y entidades nacionales e internacionales (SMV, SBS, BID, Fitch Rating, entre otros).
+- Sistematización, limpieza y análisis de la base de datos de la Encuesta Nacional de Hogares (enaho) usando Stata para informes, estudios y boletines de la Institución.
+- Elaboración de mapas estadísticos usando Stata.
+
+
+---
+
+
+**Asistente Estadístico**\
+***Encuestadora Gauss Data E.I.R.L.***\
+***Lima, Perú | 1/3/2010 – 27/7/2011***\
+
+- Apoyo en la elaboración de informes de resultados.
+- Realización de consistencia, procesamiento y análisis de base de datos de encuestas a hogares.
+
+### Educación ###
+
+---
+
+**Universidad Nacional Federico Villarreal**\
+***Bachiller en Ciencias Económicas***\
+***Lima | Abr. de 2005 – dic. de 2010***\
+
+- Orden de mérito: décimo superior. Puesto 13° de un total de 280 alumnos, por rendimiento académico en el periodo 2005-1 al 2010-2.  
+- Calificación: 15.24
+
+### Actividades de docencia ###
+
+---
+
+#### Grupo CEA | Febr. de 2021 – oct. de 2021
+- Módulo 1 – Programa de Especialización Master Program Stata (52 horas lectivas)
+- Programación estadística con Stata (40 horas lectivas)
+- Indicadores socioeconómicos con Stata (28 horas lectivas)
+
+### Ponencias y consultorías
+
+---
+
+- Ponencia Construcción de indicadores del Censo Nacional de Comisarías ([_link_](https://fb.watch/iVYY3jXxPy/)) | Mzo. de 2022
+- Ponencia Importancia de la Encuesta Permanente de Empleo del INEI ([_link_](https://fb.watch/iVZIxFIbP0/)) | Dic. de 2021
+- Ponencia Taller Enaho con Stata ([_link_](https://www.youtube.com/watch?v=Y6_eIyrn1q8/)) | Ago. de 2021
+- Consultoría – consolidado, etiquetado y análisis del IV Cenagro 2012 Jul. de 2019
+
+
+
+### Informática
+
+---
+
+**_Infopucp_**\
+
+  - Curso Taller en Uso de Microsoft Word para la Redacción de Textos Académicos (18 horas académicas). Expedición (Exp.): Ago. de 2022
+  - Métodos estadísticos con SPSS (24 horas). Exp. : May. de 2010.
+
+---
+
+**_Edúcate Perú Consultores_**\
+
+  - Econometría con Stata (69 horas). Exp: Ene. de 2023.
+  - Indicadores económicos con Stata (33 horas). Exp: Ene. de 2022.
+  - Power Bi nivel básico, intermedio y avanzado (45 horas) Exp:Dic. de 2022.
+  - Tableau (15 horas) Expedición: Jul. de 2022.
+
+---
+
+**_Estudios Econométricos SAC_**\
+
+  - Econometría de datos panel (160 horas). Expedición: Ago. de 2021.
+  - Econometría básica con python (153 horas). Expedición: Mzo. de 2021.
+    
+---
+
+**_Valora Consultoría_**\
+
+  Elaboración de indicadores socioeconómicos con la Enaho usando Stata (24 horas).     Expedición: Nov. de 2020.
+
+---
+
+**_Escuela del Instituto Nacional de Estadística e Informática_**\
+  Stata intermedio (30 horas) Expedición: Mzo. de 2020.
+
+---
+
+**_Universidad Nacional Federico Villarreal_**\
+  Microsoft Excel avanzado (32 horas). Expedición: Nov. de 2015.
+
+
+### Voluntariado
+
+---
+
+**_ONG Techo Perú_**
+
+  - Área de Investigación Social. 
+  - Lima, Perú | 16/8/2016 – 8/4/2019 
+
+
+### Intereses
+
+---
+
+- Voluntariado
+- Lectura 
+- Programación
+- Música (cantar y tocar guitarra)
