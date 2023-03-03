@@ -1,9 +1,26 @@
 name: "my-website"
 output_dir: "."
 navbar:
-  title: "My Website"
+  title: "Andrés Talavera Cuya"
   left:
-    - text: "Home"
+    - text: "Acerca de mí"
       href: index.html
-    - text: "About"
-      href: about.html
+    - text: "Estudios de campo"
+      href: estudios.html
+    - text: "Enseñanza"
+      href: clases.html
+    - text: "Reportes Multimedia"
+      href: report.html
+    - text: "Eventos"
+      href: eventos.html
+    - text: "Noticias"
+      href: noticias.html
+    - text: "Curriculum Vitae"
+      href: cv.html            
+output:
+  html_document:
+      theme: journal
+      highlight: textmate
+      css: "styles.css"
+      
+      

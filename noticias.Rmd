@@ -1,0 +1,7 @@
+---
+title: "Noticias"
+---
+
+- Notas informativas.
+- Notas interpretativas. 
+- Columnas de opinión. 

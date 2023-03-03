@@ -1,0 +1,39 @@
+
+<style>
+h2 {
+  color: red;
+  background-color: beige;
+  font-size: 1.5em;
+}
+p {
+  color: black;
+}
+
+body {
+         box-sizing: border-box;
+         margin: 0;
+         background-color: #FECE00;
+         }
+         
+         header {
+           background-color: red;
+           height:100px;
+         }
+         
+         .topnav a {
+         float: left;
+         color: #f8f8f8;
+         text-align: center;
+         text-decoration: none;
+         padding: 10px 10px;
+         }
+         
+         .topnav a:hover {
+         background-color: black;
+         }
+         
+         #topnav-right {
+         float: right;    
+         }
+</style>
+         
