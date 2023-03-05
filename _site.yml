@@ -1,12 +1,25 @@
 name: "my-website"
+title: "Andrés Talavera Cuya"
 output_dir: "."
 navbar:
-  title: "Andrés Talavera Cuya"
-  left:
+  logo:
+    image: imagen/logo.png
+    href: https://www.rstudio.com
+  right:
     - text: "Acerca de mí"
       href: index.html
     - text: "Estudios de campo"
       href: estudios.html
+      menu: 
+        - text: asentamientos
+          href: asentamientos.html
+        - text: regionales
+          href: regional.html
+        - text: Urbanos
+          href: urbano.html
+        - text: Rurales
+          href: rural.html
+          
     - text: "Enseñanza"
       href: clases.html
     - text: "Reportes Multimedia"
@@ -16,11 +29,16 @@ navbar:
     - text: "Noticias"
       href: noticias.html
     - text: "Curriculum Vitae"
-      href: cv.html            
-output:
-  html_document:
-      theme: journal
-      highlight: textmate
-      css: "styles.css"
-      
+      href: cv.html
+    - icon: fab fa-linkedin
+      href: https://www.linkedin.com/in/atalaveracuya/
+    - icon: fab fa-github
+      href: https://github.com/atalaveracuya/
+    - icon: fa-youtube
+      href: https://www.youtube.com/@SABCPERU
+output: 
+  distill::distill_article:
+    includes: 
+      after_body: footer.html
+    toc: true  
       

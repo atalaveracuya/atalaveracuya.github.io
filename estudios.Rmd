@@ -2,8 +2,4 @@
 title: "Estudios de campo"
 ---
 
-- Asentamientos Humanos o comunidades. 
-- Distritales
-- Regionales
-- Nacionales
-
+### Esta sección contiene documentos que son resultados de operaciones de campo realizados en diferentes ámbitos, tales como asentamientos humanos, distritos, regiones y a nivel nacional. ### 

@@ -2,4 +2,42 @@
 title: "Andrés Talavera Cuya"
 ---
 
-Hola, esta es mi página web. 
+# Principales servicios # 
+
+Contacto: [E-mail](mailto:atalaveracuya@gmail.com)\
+
+**Enseñanza**\
+
+-  Construcción y análisis de indicadores socioeconómicos de empleo, educación, ingresos, gastos de los hogares, pobreza, desigualdad, salud, vivienda, empresariales, indicadores delictivos, entre otros, usando bases de datos de acceso público del Instituto Nacional de Estadísticas e Informática (INEI).
+-  Visualización animada e interactiva con _Power Bi_, _Tableau_, _Affter Efects_ y otros. 
+-  Econometría aplicada y ciencia de datos.
+-  Uso de _R_, _Stata_ y _Python_ con microdatos abiertos.
+
+**Talleres y ponencias ** 
+
+  - Gráficas animadas e interactivas con Stata y R. 
+  - Encuesta Nacional de hogares con Stata y R.  
+  - Encuestas permanentes de empleo con Stata , R o Power Bi.
+  - Construcción de indicadores del Censo Nacional Agropecuario (Cenagro)
+  - Construcción de indicadores del Censo Nacional de Comisarías 
+
+**Servicios de información e investigación** 
+
+  ***Análisis socioeconómico con manejo de base de datos***
+  
+  - Elaboración de modelos econométricos de tipo regresión lineal, logísticos, probit, de variable dependiente limitada, Oaxaaca Blinder, regresión por cuantiles, modelos de duración o supervivencia, de panel, diferencias en diferencias, _propensity score matching (PSM)_, regresión discontínua y variables instrumentales.
+  - Elaboración de pronósticos usando modelos de tipo árbol de decisión. 
+  
+  ***Trabajos de consistencia de encuestas o censos, tales como:***
+  
+  - Elaboración de reglas lógicas y flujos de consistencia. 
+  - Elaboración de sintaxis
+  - Elaboración de reportes de calidad y monitoreo 
+  - Elaboración de sintaxis de indicadores
+ 
+  ***Encuestas de opinión a nivel local, tales como:***
+  
+  - Percepción de la opinión pública sobre los problemas locales, regionales o            nacionales. 
+  - Encuestas de opinión a empresas privadas para conocer el comportamiento de la         actividad empresarial
+  - Encuestas de carácter social, demográfico, cultural, de salud, etc. 
+
