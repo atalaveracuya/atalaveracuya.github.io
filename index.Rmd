@@ -2,9 +2,18 @@
 title: "Andrés Talavera Cuya"
 ---
 
-# Principales servicios # 
+---
+---
+
+### Acerca de mí ### 
+
+Bachiller en Ciencias Económicas de la Universidad Nacional Federico Villarreal, perteneciente al décimo superior, con experiencia en la construcción y monitoreo de indicadores socioeconómicos. Manejo avanzado de paquetes informáticos para el análisis estadístico y econométrico. Con conocimientos en la redacción de informes y estudios. Predisposición de desarrollo profesional en áreas de investigación y análisis económico.
 
 Contacto: [E-mail](mailto:atalaveracuya@gmail.com)\
+
+---
+
+### Principales servicios ### 
 
 **Enseñanza**\
 

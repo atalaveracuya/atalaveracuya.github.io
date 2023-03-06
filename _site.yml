@@ -1,6 +1,8 @@
 name: "my-website"
 title: "Andrés Talavera Cuya"
 output_dir: "."
+include: ["import.R"]
+exclude: ["docs.txt", "*.csv"]
 navbar:
   logo:
     image: imagen/logo.png
@@ -11,15 +13,14 @@ navbar:
     - text: "Estudios de campo"
       href: estudios.html
       menu: 
-        - text: asentamientos
+        - text: Asentamientos
           href: asentamientos.html
-        - text: regionales
+        - text: Regionales
           href: regional.html
         - text: Urbanos
           href: urbano.html
         - text: Rurales
           href: rural.html
-          
     - text: "Enseñanza"
       href: clases.html
     - text: "Reportes Multimedia"
@@ -36,9 +37,7 @@ navbar:
       href: https://github.com/atalaveracuya/
     - icon: fa-youtube
       href: https://www.youtube.com/@SABCPERU
-output: 
+output:
   distill::distill_article:
-    includes: 
-      after_body: footer.html
-    toc: true  
-      
+    toc: true
+
