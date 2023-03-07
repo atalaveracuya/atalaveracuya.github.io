@@ -29,6 +29,10 @@ navbar:
       href: eventos.html
     - text: "Noticias"
       href: noticias.html
+    - icon: fa-envelope
+      href: mailto:atalaveracuya@gmail.com
+    - icon: fa-brands fa-twitter
+      href: https://twitter.com/atalaveracuya
     - icon: fab fa-linkedin
       href: https://www.linkedin.com/in/atalaveracuya/
     - icon: fab fa-github
@@ -36,6 +40,5 @@ navbar:
     - icon: fa-youtube
       href: https://www.youtube.com/@SABCPERU
 output:
-  distill::distill_article:
-    toc: true
+  distill::distill_article
 
