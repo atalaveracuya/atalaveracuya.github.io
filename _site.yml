@@ -1,5 +1,6 @@
 name: "my-website"
 title: "Andrés Talavera Cuya"
+class: index
 output_dir: "."
 include: ["import.R"]
 exclude: ["docs.txt", "*.csv"]
@@ -40,5 +41,7 @@ navbar:
     - icon: fa-youtube
       href: https://www.youtube.com/@SABCPERU
 output:
-  distill::distill_article
-
+  distill::distill_article:
+    css: 
+      - styles.css
+      - style.css
