@@ -46,7 +46,7 @@ económico.
 
 ### Curriculum Vitae ### 
 
-Mi CV está actualizado [aquí](TalaveraCV.pdf)
+Mi CV está actualizado [aquí](TalaveraCV.pdf). Si quieres saber cómo lo hice, puedes ver [una versión del código en Github.](https://github.com/atalaveracuya/CV) 
 
 ### Contáctame ### 
 Comuníquese conmigo electrónicamente:
@@ -54,6 +54,7 @@ Comuníquese conmigo electrónicamente:
 [E-mail](mailto:atalaveracuya@gmail.com) 
 [Twitter](https://twitter.com/atalaveracuya)
 [Linkedin](https://www.linkedin.com/in/atalaveracuya/) [GitHub](https://github.com/atalaveracuya/)
+
 
 <footer>
   Copyright © 2023 Andrés Talavera Cuya. Todos los derechos reservados.
