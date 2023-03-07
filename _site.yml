@@ -29,8 +29,6 @@ navbar:
       href: eventos.html
     - text: "Noticias"
       href: noticias.html
-    - text: "Curriculum Vitae"
-      href: cv.html
     - icon: fab fa-linkedin
       href: https://www.linkedin.com/in/atalaveracuya/
     - icon: fab fa-github
