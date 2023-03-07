@@ -5,3 +5,8 @@ title: "Reportes multimedia"
 - Videos
 - Interactivos
 - _Podcast_
+
+
+<footer>
+  Copyright © 2023 Andrés Talavera Cuya. Todos los derechos reservados.
+</footer>

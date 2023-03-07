@@ -3,3 +3,8 @@ title: "Enseñanza"
 ---
 
 Cursos 
+
+
+<footer>
+  Copyright © 2023 Andrés Talavera Cuya. Todos los derechos reservados.
+</footer>

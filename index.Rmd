@@ -44,10 +44,6 @@ económico.
   - Encuestas de opinión a empresas privadas para conocer el comportamiento de la         actividad empresarial
   - Encuestas de carácter social, demográfico, cultural, de salud, etc. 
 
-Bachiller en Ciencias Económicas de la Universidad Nacional Federico Villarreal, perteneciente al décimo superior, con experiencia en la construcción y monitoreo de indicadores socioeconómicos. Manejo avanzado de paquetes informáticos para el análisis estadístico y econométrico. Con conocimientos en la redacción de informes y estudios. Predisposición de desarrollo profesional en áreas de investigación y análisis económico.
-
-
-
 ### Curriculum Vitae ### 
 
 Mi CV está actualizado [aquí](TalaveraCV.pdf)
@@ -58,3 +54,7 @@ Comuníquese conmigo electrónicamente:
 [E-mail](mailto:atalaveracuya@gmail.com) 
 [Twitter](https://twitter.com/atalaveracuya)
 [Linkedin](https://www.linkedin.com/in/atalaveracuya/) [GitHub](https://github.com/atalaveracuya/)
+
+<footer>
+  Copyright © 2023 Andrés Talavera Cuya. Todos los derechos reservados.
+</footer>
