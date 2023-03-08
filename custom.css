@@ -9,3 +9,23 @@ footer {
   background-color: #445A65;
   border-top: 1px solid #ddd;
 }
+
+
+.contenedor-iconos {
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor-iconos a {
+  margin: 0 10px;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+}
+
+.contenedor-iconos a:hover {
+  color: #0077b5;
+}
+
+.contenedor-iconos i {
+  font-size: 24px;
+}

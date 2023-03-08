@@ -2109,12 +2109,37 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     border-top: 1px solid #ddd;
   }
 
+
+  .contenedor-iconos {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contenedor-iconos a {
+    margin: 0 10px;
+    color: #333;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .contenedor-iconos a:hover {
+    color: #0077b5;
+  }
+
+  .contenedor-iconos i {
+    font-size: 24px;
+  }
+
+  .icono-grande {
+    font-size: 2em; /* Puedes ajustar el tamaño aquí */
+  }
+
   </style>
   <!--/radix_placeholder_site_in_header-->
 
   <link rel="stylesheet" href="styles.css" type="text/css"/>
   <link rel="stylesheet" href="style.css" type="text/css"/>
   <link rel="stylesheet" href="custom.css" type="text/css"/>
+  <link rel="stylesheet" href="icono-grande.css" type="text/css"/>
 
 </head>
 
@@ -2231,9 +2256,11 @@ económico.</p>
 <p>Mi CV está actualizado <a href="TalaveraCV.pdf">aquí</a>. Si quieres saber cómo lo hice, puedes ver <a href="https://github.com/atalaveracuya/CV">una versión del código en Github.</a></p>
 <h3 id="contáctame">Contáctame</h3>
 <p>Comuníquese conmigo electrónicamente:</p>
-<p><a href="mailto:atalaveracuya@gmail.com">E-mail</a>
-<a href="https://twitter.com/atalaveracuya">Twitter</a>
-<a href="https://www.linkedin.com/in/atalaveracuya/">Linkedin</a> <a href="https://github.com/atalaveracuya/">GitHub</a></p>
+<p><a href="mailto:atalaveracuya@gmail.com"><i class="fas fa-envelope icono-grande"></i> atalaveracuya@gmail.com</a></p>
+<p><a href="https://twitter.com/atalaveracuya"><i class="fab fa-twitter"></i> Twitter</a></p>
+<p><a href="https://www.linkedin.com/in/atalaveracuya"><i class="fab fa-linkedin icono-grande"></i> LinkedIn</a></p>
+<p><a href="https://github.com/atalaveracuya"><i class="fab fa-github icono-grande"></i> Github</a></p>
+<p><a href="https://www.youtube.com/@SABCPERU"><i class="fab fa-youtube icono-grande"></i> Youtube</a></p>
 <footer>
 Copyright © 2023 Andrés Talavera Cuya.
 </footer>

@@ -51,11 +51,18 @@ Mi CV está actualizado [aquí](TalaveraCV.pdf). Si quieres saber cómo lo hice,
 ### Contáctame ### 
 Comuníquese conmigo electrónicamente:
 
-[E-mail](mailto:atalaveracuya@gmail.com) 
-[Twitter](https://twitter.com/atalaveracuya)
-[Linkedin](https://www.linkedin.com/in/atalaveracuya/) [GitHub](https://github.com/atalaveracuya/)
+<a href="mailto:atalaveracuya@gmail.com"><i class="fas fa-envelope icono-grande"></i> atalaveracuya@gmail.com</a>
+
+<a href="https://twitter.com/atalaveracuya"><i class="fab fa-twitter"></i> Twitter</a>
+
+<a href="https://www.linkedin.com/in/atalaveracuya"><i class="fab fa-linkedin icono-grande"></i> LinkedIn</a>
+
+<a href="https://github.com/atalaveracuya"><i class="fab fa-github icono-grande"></i> Github</a>
+
+<a href="https://www.youtube.com/@SABCPERU"><i class="fab fa-youtube icono-grande"></i> Youtube</a>
 
 
 <footer>
-  Copyright © 2023 Andrés Talavera Cuya. 
+Copyright © 2023 Andrés Talavera Cuya. 
 </footer>
+

@@ -46,6 +46,6 @@ output:
       - styles.css
       - style.css
       - custom.css
-
+      - icono-grande.css
 
     

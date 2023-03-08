@@ -1,0 +1,33 @@
+.social {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social a {
+  display: block;
+  margin: 0 0.5rem;
+}
+
+.social i {
+  font-size: 1.5rem;
+}
+
+.hidden {
+  display: none;
+}
+
+#toggle-social {
+  background-color: #007bff; /* color de fondo */
+  color: white; /* color del texto */
+  border-color: #007bff; /* color del borde */
+}
+
+#toggle-social:hover {
+  background-color: #0069d9; /* color de fondo cuando el mouse está sobre el botón */
+  border-color: #0062cc; /* color del borde cuando el mouse está sobre el botón */
+}
+
+#toggle-social:active {
+  background-color: #0062cc; /* color de fondo cuando se presiona el botón */
+  border-color: #005cbf; /* color del borde cuando se presiona el botón */
+}
