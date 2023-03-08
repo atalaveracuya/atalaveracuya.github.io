@@ -4,5 +4,5 @@ title: "Estudios de campo en asentamientos humanos y comunidades campesinas"
 ---
 
 <footer>
-  Copyright © 2023 Andrés Talavera Cuya. Todos los derechos reservados.
+  Copyright © 2023 Andrés Talavera Cuya. 
 </footer>
