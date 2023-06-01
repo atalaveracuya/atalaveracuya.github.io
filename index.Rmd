@@ -4,7 +4,7 @@
 ---
 
 Bachiller en Ciencias Económicas de la Universidad Nacional Federico Villarreal, perteneciente al décimo superior, con
-experiencia en la construcción y monitoreo de indicadores socioeconómicos. Manejo avanzado de programas para el análisis estadístico o econométrico: _Stata, R, Python, Tableau, Power Bi, KoboCollect_, entre otros. Con conocimientos en la redacción de informes y estudios. Predisposición de desarrollo profesional en áreas de investigación y análisis
+experiencia en la construcción y monitoreo de indicadores socioeconómicos. Manejo avanzado de programas para el análisis estadístico o econométrico: _Stata, R, Python, Tableau, Power Bi, KoboCollect_, entre otros. Con conocimientos en la redacción de informes y notas periodísticas. Predisposición de desarrollo profesional en áreas de investigación y análisis
 económico.Asimismo, tengo experiencia en la enseñanza de construcción de indicadores utilizando data panel de la Enaho.
 
 ### Principales servicios ### 
@@ -12,7 +12,7 @@ económico.Asimismo, tengo experiencia en la enseñanza de construcción de indi
 
 **DataTrainer - Capacitación en análisis de datos**
 
-Capacitación a diferentes grupos de personas, desde estudiantes universitarios hasta profesionales de empresas, sobre cómo analizar datos socioeconómicos utilizando herramientas como _Stata_, _R_, _Power Bi_ y _Tableau_. Esto puede incluir talleres teóricos como prácticos. 
+Capacitación a diferentes grupos de personas, desde estudiantes universitarios hasta profesionales de empresas, sobre cómo analizar datos socioeconómicos utilizando herramientas como _Stata_, _R_, _Power Bi_ y _Tableau_. Esto puede incluir talleres teóricos como prácticos. Cursos a través de plataformas digitales o presenciales.  
 
 
 **BiConsult - Servicios de consultoría de Business Intelligence**\
@@ -25,7 +25,7 @@ Incluye la coordinación de proyectos sociales, realización de investigaciones,
 
 **WritingConsult - Redacción de informes y notas periodísticas** 
 
-Redacción de notas informativas, interpretativas, folletos, guías y de informes.
+Redacción de notas informativas, interpretativas, folletos, guías e informes con el objetivo de brindar una comunicación clara y efectiva.
 
 ### Curriculum Vitae ### 
 
