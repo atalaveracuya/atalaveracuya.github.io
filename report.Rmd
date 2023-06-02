@@ -36,7 +36,7 @@ colnames(inf_data) <-c("id","year","fecha","inf","inf_alim_ener","inf_alim_beb",
 
 
 ### Inflación Total
-```{r Inflación Total}
+```{r Inflación Total, echo=FALSE}
 library(dygraphs)
 inf_total <- ts(inf_data$inf,frequency=12,start = c(2004,1))
 dygraph(inf_total)
@@ -44,7 +44,7 @@ dygraph(inf_total)
 
 
 ### Inflación de alimentos y energía (Var% 12 meses)
-```{r}
+```{r, echo=FALSE}
 
 library(dygraphs)
 inf_alim_ener <- ts(inf_data$inf_alim_ener,frequency=12,start = c(2004,1))
@@ -55,7 +55,7 @@ dygraphs::dygraph(inf_alim_ener)
 
 
 ### Alimentos y bebidas (Var% 12 meses)
-```{r}
+```{r, echo=FALSE}
 library(dygraphs)
 inf_alim_beb <- ts(inf_data$inf_alim_beb,frequency=12,start = c(2004,1))
 
