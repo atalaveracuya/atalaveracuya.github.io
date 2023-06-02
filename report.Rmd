@@ -1,10 +1,45 @@
+
 ---
 title: "Reportes multimedia"
+output:
+  flexdashboard::flex_dashboard:
+    orientation: rows
 ---
 
-- Videos
-- Interactivos
-- _Podcast_
+Referencia : P. J. Diggle (1990) Time Series: A Biostatistical Introduction. Oxford, table A.3
+
+```{r configuracion}
+library(flexdashboard)
+library(dygraphs)
+```
+
+Fila1
+------------------------------------
+### Todas las muertes por problema pulmonares
+```{r MuertesTotales}
+dygraphs::dygraph(ldeaths)
+
+```
+
+Fila2
+------------------------------------
+
+### Muertes Femenino
+```{r}
+dygraphs::dygraph(fdeaths)
+```
+> Muertes del sexo femenimo en [1974-1979]
+
+
+### Muertes Masculino
+```{r}
+dygraphs::dygraph(mdeaths)
+```
+> Muertes del sexo masculino en [1974-1979]
+
+### Conclusiones 
+Un ejemplo del dinamimos que se obtiene con el paquete dygraphs.
+
 
 
 <footer>
