@@ -6,40 +6,65 @@ output:
     orientation: rows
 ---
 
-Referencia : P. J. Diggle (1990) Time Series: A Biostatistical Introduction. Oxford, table A.3
+Referencia : Bcrp. «Reporte de inflación. Panorama actual y proyecciones macroeconómicas 2023 - 2024», marzo de 2023.
 
-```{r configuracion}
+```{r configuracion, include=FALSE}
+
+### configuraciones iniciales ####
+
+rm(list=ls())
+
+
+# Definicion del directorio de trabajo
+
+# Verificacion del directorio de trabajo
+getwd()
+
 library(flexdashboard)
 library(dygraphs)
+library(readxl)
+# help("readxl")
+# IPCpc     "Inflación"
+# IPCepc    "IPC Alimentos y energía"
+# IPC_sepc  "IPC Sin alimentos y energía"
+# IPC_ABpc  "IPC Alimentos y bebidas"
+
+inf_data <- readxl::read_excel("D:/ANDRES/Documentos/Seriesdetiempo/Inflacion.xlsx", col_type=c("numeric","numeric","date","numeric","numeric","numeric","numeric"))
+colnames(inf_data) <-c("id","year","fecha","inf","inf_alim_ener","inf_alim_beb","inf_salimener")
+
 ```
 
-Fila1
-------------------------------------
-### Todas las muertes por problema pulmonares
-```{r MuertesTotales}
-dygraphs::dygraph(ldeaths)
 
+### Inflación Total
+```{r Inflación Total}
+library(dygraphs)
+inf_total <- ts(inf_data$inf,frequency=12,start = c(2004,1))
+dygraph(inf_total)
 ```
 
-Fila2
-------------------------------------
 
-### Muertes Femenino
+### Inflación de alimentos y energía (Var% 12 meses)
 ```{r}
-dygraphs::dygraph(fdeaths)
+
+library(dygraphs)
+inf_alim_ener <- ts(inf_data$inf_alim_ener,frequency=12,start = c(2004,1))
+
+dygraphs::dygraph(inf_alim_ener)
 ```
-> Muertes del sexo femenimo en [1974-1979]
+> Nota: BCRP. Elaboración propia. 
 
 
-### Muertes Masculino
+### Alimentos y bebidas (Var% 12 meses)
 ```{r}
-dygraphs::dygraph(mdeaths)
+library(dygraphs)
+inf_alim_beb <- ts(inf_data$inf_alim_beb,frequency=12,start = c(2004,1))
+
+dygraphs::dygraph(inf_alim_beb)
 ```
-> Muertes del sexo masculino en [1974-1979]
+> Nota: BCRP. Elaboración propia.
 
 ### Conclusiones 
-Un ejemplo del dinamimos que se obtiene con el paquete dygraphs.
-
+Un ejemplo del dinamismos que se obtiene con el paquete dygraphs.
 
 
 <footer>
