@@ -6,8 +6,6 @@ output:
     orientation: rows
 ---
 
-Referencia : Bcrp. «Reporte de inflación. Panorama actual y proyecciones macroeconómicas 2023 - 2024», marzo de 2023.
-
 ```{r configuracion, include=FALSE}
 
 ### configuraciones iniciales ####
@@ -29,42 +27,86 @@ library(readxl)
 # IPC_sepc  "IPC Sin alimentos y energía"
 # IPC_ABpc  "IPC Alimentos y bebidas"
 
-inf_data <- readxl::read_excel("D:/ANDRES/Documentos/Seriesdetiempo/Inflacion.xlsx", col_type=c("numeric","numeric","date","numeric","numeric","numeric","numeric"))
-colnames(inf_data) <-c("id","year","fecha","inf","inf_alim_ener","inf_alim_beb","inf_salimener")
+inf_data <- readxl::read_excel("D:/ANDRES/Documentos/Seriesdetiempo/Inflacion.xlsx", col_type=c("date","numeric","numeric","numeric","numeric"))
+colnames(inf_data) <-c("fecha","inf","inf_alim_ener","inf_alim_beb","inf_salimener")
 
 ```
-
 
 ### Inflación Total
-```{r Inflación Total, echo=FALSE}
+
+```{r selector, title, label, echo=FALSE}
 library(dygraphs)
-inf_total <- ts(inf_data$inf,frequency=12,start = c(2004,1))
-dygraph(inf_total)
+inf_total <- ts(inf_data$inf,frequency=12,start = c(2005,1))
+dygraph(inf_total, main='INFLACION <br> <small>(Variación porcentual últimos 12 meses)</small>') %>% 
+ dySeries("V1", label="Perú Inflación", color='blue') %>% 
+ dyAxis("y", label="Variación porcentual últimos 12 meses") %>% 
+ dyOptions(axisLineWidth = 0.5,
+           fillGraph = TRUE,
+           fillAlpha =0.1,
+           drawGrid = FALSE) %>% 
+dyLegend(show= "follow") %>% 
+dyRangeSelector(height = 19)  
+
 ```
 
 
-### Inflación de alimentos y energía (Var% 12 meses)
-```{r, echo=FALSE}
+### Inflación por rubros (Var% 12 meses)
+```{r multiple, echo=FALSE}
 
 library(dygraphs)
-inf_alim_ener <- ts(inf_data$inf_alim_ener,frequency=12,start = c(2004,1))
-
-dygraphs::dygraph(inf_alim_ener)
-```
-> Nota: BCRP. Elaboración propia. 
-
-
-### Alimentos y bebidas (Var% 12 meses)
-```{r, echo=FALSE}
-library(dygraphs)
-inf_alim_beb <- ts(inf_data$inf_alim_beb,frequency=12,start = c(2004,1))
-
-dygraphs::dygraph(inf_alim_beb)
+inf <- ts(inf_data[,-1],frequency=12,start = c(2005,1))
+dygraphs::dygraph(inf) %>% 
+  dyAxis("y", label="Variación porcentual últimos 12 meses") %>% 
+ dyOptions(axisLineWidth = 0.5,
+           fillGraph = TRUE,
+           fillAlpha =0.1,
+           drawGrid = FALSE) %>% 
+dyLegend(show= "follow") %>% 
+  dySeries("inf",label="Inflación",color='blue') %>% 
+  dySeries("inf_alim_ener",label="Alim. y Ener.",color='orange') %>%
+  dySeries("inf_salimener",label="Sin Alim. y Ener.",color='green') %>% 
+  dySeries("inf_alim_beb",label="Alim. y Beb.",color='red') 
 ```
 > Nota: BCRP. Elaboración propia.
 
-### Conclusiones 
-Un ejemplo del dinamismos que se obtiene con el paquete dygraphs.
+
+### Inflación y eventos importantes
+```{r event, echo=FALSE}
+library(dygraphs)
+library(dplyr)
+inf_data2=subset(inf_data,select = -c(inf_alim_ener,inf_salimener))
+inf <- ts(inf_data2[,-1],frequency=12,start = c(2005,1))
+  dygraph(inf, main="Inflación") %>% 
+  dyAxis("y", label="Variación porcentual últimos 12 meses") %>% 
+ dyOptions(axisLineWidth = 0.5,
+           fillGraph = TRUE,
+           fillAlpha =0.1,
+           drawGrid = FALSE) %>% 
+dyLegend(show= "follow") %>% 
+  dySeries("inf",label="Inflación",color='blue') %>% 
+  dySeries("inf_alim_beb",label="Alim. y Beb.",color='red')  %>%
+  dyEvent("2020-03-01", "COVID-19", labelLoc = "bottom") %>% 
+  dyShading(from = "2008-01-01", to="2008-12-01") %>% 
+  dyEvent("2008-05-01", "2008 Crisis Financiera", labelLoc = "bottom")  
+```
+> Nota: BCRP. Elaboración propia.
+
+### Predicción
+
+``` {r upper/lower, echo=FALSE}
+library(seasonal)
+library(fpp2)
+library(dygraphs)
+inf_total <- ts(inf_data$inf,frequency=12,start = c(2005,1))
+hw <- HoltWinters(inf_total)
+predicted <- predict(hw, n.ahead=12, prediction.interval = TRUE)
+all <- cbind(inf_total,predicted)
+
+dygraph(all, "Proyección holtWinters de Inflación") %>% 
+  dySeries("inf_total", label="Actual") %>% 
+  dySeries(c("predicted.lwr", "predicted.fit", "predicted.upr"), label="Predicted")
+
+```
 
 
 <footer>
