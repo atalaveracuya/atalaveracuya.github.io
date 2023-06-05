@@ -107,7 +107,7 @@ dygraph(all, "Proyección holtWinters de Inflación") %>%
   dySeries(c("predicted.lwr", "predicted.fit", "predicted.upr"), label="Predicted")
 
 ```
-
+> Nota: El gráfico fue creado por el autor basándose en una estimación propia.
 
 <footer>
   Copyright © 2023 Andrés Talavera Cuya.
