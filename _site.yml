@@ -11,7 +11,7 @@ navbar:
   right:
     - text: "Acerca de mí"
       href: index.html
-    - text: "Enseñanza"
+    - text: "Cursos"
       href: clases.html
       menu: 
         - text: Webinars y Ponencias
@@ -26,10 +26,8 @@ navbar:
           href: Testimonios.html
     - text: "Servicios"
       href: Servicios.html
-    - text: "Reportes Multimedia"
+    - text: "Reportes"
       href: report.html
-    - text: "Eventos"
-      href: eventos.html
     - text: "Noticias"
       href: noticias.html
     - icon: fa-envelope

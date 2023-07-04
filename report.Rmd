@@ -1,6 +1,6 @@
 
 ---
-title: "Reportes multimedia"
+title: "Reportes"
 output:
   flexdashboard::flex_dashboard:
     orientation: rows
@@ -27,7 +27,7 @@ library(readxl)
 # IPC_sepc  "IPC Sin alimentos y energía"
 # IPC_ABpc  "IPC Alimentos y bebidas"
 
-inf_data <- readxl::read_excel("D:/ANDRES/Documentos/Seriesdetiempo/Inflacion.xlsx", col_type=c("date","numeric","numeric","numeric","numeric"))
+inf_data <- readxl::read_excel("E:/ANDRES/Documents/Seriesdetiempo/Inflacion.xlsx", col_type=c("date","numeric","numeric","numeric","numeric"))
 colnames(inf_data) <-c("fecha","inf","inf_alim_ener","inf_alim_beb","inf_salimener")
 
 ```

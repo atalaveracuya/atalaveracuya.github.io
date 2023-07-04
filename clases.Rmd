@@ -1,5 +1,5 @@
 ---
-title: "Enseñanza"
+title: "Cursos"
 ---
 
 Cursos 
