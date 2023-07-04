@@ -39,7 +39,7 @@ navbar:
     - icon: fab fa-github
       href: https://github.com/atalaveracuya/
     - icon: fa-youtube
-      href: https://www.youtube.com/@SABCPERU
+      href: https://www.youtube.com/@SocioMetrics
 output:
   distill::distill_article:
     css: 
