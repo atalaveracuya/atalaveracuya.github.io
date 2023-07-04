@@ -11,19 +11,21 @@ navbar:
   right:
     - text: "Acerca de mí"
       href: index.html
-    - text: "Estudios de campo"
-      href: estudios.html
-      menu: 
-        - text: Asentamientos
-          href: asentamientos.html
-        - text: Regionales
-          href: regional.html
-        - text: Urbanos
-          href: urbano.html
-        - text: Rurales
-          href: rural.html
     - text: "Enseñanza"
       href: clases.html
+      menu: 
+        - text: Webinars y Ponencias
+          href: Webinars_y_Ponencias.html
+        - text: Cursos en Vivo
+          href: Cursos_en_Vivo.html   
+        - text: Cursos grabados
+          href: Cursos_grabados.html 
+        - text: Workshops
+          href: Workshops.html           
+        - text: Testimonios
+          href: Testimonios.html
+    - text: "Servicios"
+      href: Servicios.html
     - text: "Reportes Multimedia"
       href: report.html
     - text: "Eventos"

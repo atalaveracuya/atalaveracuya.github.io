@@ -1,0 +1,12 @@
+
+---
+  title: "Workshop"
+---
+
+Un workshop es una actividad más práctica y participativa que tiene como objetivo desarrollar habilidades o profundizar en un tema específico.
+En un workshop, los participantes trabajan activamente en ejercicios, actividades o discusiones en grupo para aprender y aplicar lo que se está enseñando.
+
+
+<footer>
+  Copyright © 2023 Andrés Talavera Cuya.
+</footer>  

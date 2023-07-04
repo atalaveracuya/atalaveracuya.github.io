@@ -455,8 +455,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
 
   <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-  <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
-  <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
+  <link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet"/>
+  <link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet"/>
   <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
   <script src="site_libs/autocomplete-0.37.1/autocomplete.min.js"></script>
   <script src="site_libs/fuse-6.4.1/fuse.min.js"></script>
@@ -923,6 +923,11 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   d-article div.sourceCode pre {
     padding-left: 18px;
     font-size: 14px;
+  }
+
+  /* tweak for Pandoc numbered line within distill */
+  d-article pre.numberSource code > span {
+      left: -2em;
   }
 
   d-article pre {
@@ -1761,8 +1766,9 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     $('.distill-force-highlighting-css').parent().remove();
 
     // remove empty line numbers inserted by pandoc when using a
-    // custom syntax highlighting theme
-    $('code.sourceCode a:empty').remove();
+    // custom syntax highlighting theme, except when numbering line
+    // in code chunk
+    $('pre:not(.numberLines) code.sourceCode a:empty').remove();
 
     // load distill framework
     load_distill_framework();
@@ -2071,7 +2077,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </script>
 
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.23/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2130,7 +2136,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   }
 
   .icono-grande {
-    font-size: 2em; /* Puedes ajustar el tamaño aquí */
+    font-size: 2em; /* Puedes ajustar el tamaÃ±o aquÃ­ */
   }
 
   </style>
@@ -2160,23 +2166,25 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <img src="imagen/logo.png" alt="Logo"/>
 </a>
 <a href="index.html" class="title">Andrés Talavera Cuya</a>
+<input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
 </div>
 <div class="nav-right">
 <a href="index.html">Acerca de mí</a>
 <div class="nav-dropdown">
 <button class="nav-dropbtn">
-Estudios de campo
+Enseñanza
  
 <span class="down-arrow">&#x25BE;</span>
 </button>
 <div class="nav-dropdown-content">
-<a href="asentamientos.html">Asentamientos</a>
-<a href="regional.html">Regionales</a>
-<a href="urbano.html">Urbanos</a>
-<a href="rural.html">Rurales</a>
+<a href="Webinars_y_Ponencias.html">Webinars y Ponencias</a>
+<a href="Cursos_en_Vivo.html">Cursos en Vivo</a>
+<a href="Cursos_grabados.html">Cursos grabados</a>
+<a href="Workshops.html">Workshops</a>
+<a href="Testimonios.html">Testimonios</a>
 </div>
 </div>
-<a href="clases.html">Enseñanza</a>
+<a href="Servicios.html">Servicios</a>
 <a href="report.html">Reportes Multimedia</a>
 <a href="eventos.html">Eventos</a>
 <a href="noticias.html">Noticias</a>
@@ -2205,6 +2213,7 @@ Estudios de campo
 
 <div class="d-title">
 <h1>Estudios de campo en asentamientos humanos y comunidades campesinas</h1>
+
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
 

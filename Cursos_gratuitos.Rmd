@@ -1,0 +1,8 @@
+
+---
+  title: "Cursos gratuitos en vivo"
+---
+
+<footer>
+  Copyright © 2023 Andrés Talavera Cuya.
+</footer>  

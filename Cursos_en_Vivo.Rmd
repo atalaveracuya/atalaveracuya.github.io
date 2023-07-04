@@ -1,0 +1,10 @@
+
+---
+  title: "Cursos en Vivo"
+---
+
+Lista de webinars y ponencias en los que he participado como invitado.
+
+<footer>
+  Copyright © 2023 Andrés Talavera Cuya.
+</footer>  

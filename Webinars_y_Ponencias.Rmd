@@ -1,0 +1,11 @@
+
+---
+  title: "Webinars y Ponencias Virtuales"
+---
+
+Un webinar es un evento en línea en el que un orador o presentador transmite información, conocimientos o ideas a una audiencia a través de una presentación en vivo o pregrabada.
+La participación de los asistentes se limita generalmente a preguntas y respuestas a través de un chat o una sección de preguntas y respuestas.
+
+<footer>
+  Copyright © 2023 Andrés Talavera Cuya.
+</footer>  

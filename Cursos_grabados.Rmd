@@ -1,0 +1,10 @@
+
+---
+  title: "Cursos grabados"
+---
+
+Lista de cursos grabados disponibles para la comunidad académica.
+
+<footer>
+  Copyright © 2023 Andrés Talavera Cuya.
+</footer>  

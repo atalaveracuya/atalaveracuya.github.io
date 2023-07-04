@@ -1,0 +1,21 @@
+---
+title: "Servicios"
+---
+
+**BiConsult - Servicios de consultoría de Business Intelligence:**
+
+- Creación de paneles interactivos, informes personalizados y cuadros de mando.
+- Visualización y comprensión de datos de manera intuitiva.
+- Facilitación de la toma de decisiones basadas en datos.
+- Uso de herramientas como Power BI y Tableau.
+
+**EconDev - Investigación social:**
+
+- Coordinación de proyectos sociales.
+- Realización de investigaciones y recolección de datos.
+- Análisis de problemas sociales utilizando herramientas como R, Python, Stata, entre otros.
+
+**WritingConsult - Redacción de informes y notas periodísticas:**
+
+- Redacción de notas informativas, interpretativas, folletos, guías e informes.
+- Comunicación clara y efectiva respaldada por análisis de datos.
