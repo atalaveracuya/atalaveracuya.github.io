@@ -1,0 +1,25 @@
+
+
+
+
+library(shiny)
+
+#Interfaz de usuario
+UserInterface <- fluidPage(
+  titlePanel(title = "Mi segunda App en Shiny"),
+  
+  sidebarLayout(
+    sidebarPanel("Este es el sidebar panel de mi segunda aplicación. En este panel colocaremos los conroles de INPUT"),
+    mainPanel("Este es el main panel de mi segunda aplicación. En este panel colocaremos los controles del OUTPUT")
+  ),
+  "Segundo Ejemplo"
+)
+
+
+#Servidor 
+ServerApp <- function(input, output, session) {
+  
+}
+
+#Ejecución 
+shinyApp(ui = UserInterface, server =ServerApp)

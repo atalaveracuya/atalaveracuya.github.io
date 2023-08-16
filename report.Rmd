@@ -1,9 +1,9 @@
 
 ---
 title: "Reportes"
-output:
-  flexdashboard::flex_dashboard:
-    orientation: rows
+output: 
+ flexdashboard::flex_dashboard
+ # orientation: rows
 ---
 
 ```{r configuracion, include=FALSE}
@@ -13,7 +13,7 @@ output:
 rm(list=ls())
 
 
-# Definicion del directorio de trabajo
+# Definicion del directorio de trabajo 
 
 # Verificacion del directorio de trabajo
 getwd()
@@ -21,6 +21,9 @@ getwd()
 library(flexdashboard)
 library(dygraphs)
 library(readxl)
+library(ggplot2)
+library(tidyverse)
+
 # help("readxl")
 # IPCpc     "Inflación"
 # IPCepc    "IPC Alimentos y energía"
@@ -31,6 +34,8 @@ inf_data <- readxl::read_excel("E:/ANDRES/Documents/Seriesdetiempo/Inflacion.xls
 colnames(inf_data) <-c("fecha","inf","inf_alim_ener","inf_alim_beb","inf_salimener")
 
 ```
+
+
 
 ### Inflación Total
 
@@ -108,6 +113,8 @@ dygraph(all, "Proyección holtWinters de Inflación") %>%
 
 ```
 > Nota: El gráfico fue creado por el autor basándose en una estimación propia.
+
+
 
 <footer>
   Copyright © 2023 Andrés Talavera Cuya.

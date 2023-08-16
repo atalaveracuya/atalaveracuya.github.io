@@ -47,5 +47,7 @@ output:
       - style.css
       - custom.css
       - icono-grande.css
+shinyApp: app.R
+runtime: shiny
 
     
